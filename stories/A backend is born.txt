@@ -1,0 +1,5 @@
+title: A backend is born
+content: This site wouldn't be a challenging learning project without its own backend to add to the list of things I would like to experiment with. So I added one.
+But it has to add some useful functionality as well of course. Before when adding one of the stories I directly adjusted a json file in which I hold a list of stories. This json file was called every time someone entered the side and would be dissected into stories, with their header and content. Now I wrote a simple script that allows me to add each story as an individual text file. The backend reads all the files, collects the right segments and presents it to the frontend. 
+This isn’t the most efficient method of course, but it allows me to experiment with challenges like handing over tasks to a backend, practicing with a different programming language and storing data elsewhere. 
+The backend has been built using Python with the [Flask](https://flask.palletsprojects.com/en/1.1.x/) framework. It currently runs a single function converting the text files to stories, but it would allow me to expend on the functionalities of this website.

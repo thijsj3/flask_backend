@@ -1,0 +1,3 @@
+title: Baby steps
+content: Here it is, already the second release of my Svelte learning journey. After the first release I quickly cleaned up the code and added markdown support to make the texts look nicer. I also removed the Bootstrap code and applied the Svelte [Nested Components](https://svelte.dev/examples#nested-components) allowing me to style this more to my own needs.  
+For putting this site live I used the minimal Digital Ocean Droplet running Docker with a container running NGINX and a container running my Svelte code. I have connected my domain name to the IP of the container and now I can access my site through [thijsiedema.com](http://thijsiedema.com/). FInally I started looking into adding an SSL certificate so that I can get some HTTPS working.

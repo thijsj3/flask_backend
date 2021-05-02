@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Hello World",
+        "content": "What you read here is a first post of an elaborate plan to get started learning some new skills. \n\n My goal with this website is to learn all kinds of techniques related to software development, web programming and everything around it. When you are reading this I have already set up some basic website page and added some front-end code using [Svelte](https://svelte.dev/ 'Svelte dev site'), I have added a minimal design using *Bootstrap*, and arranged some hosting and namespace. \n\nThere are a lot of things I want to experiment with on this site. For starters I would like to have this page look nice and add some features to make it feel like an enjoyable site. Next it would be nice if I could easily add some stories and manage the content of the site a little bit. After that I can go any direction I like and experiment a little bit."
+    },
+    {
+        "title": "Baby steps",
+        "content": "Here it is, already the second release of my Svelte learning journey. After the first release I quickly cleaned up the code and added markdown support to make the texts look nicer. I also removed the Bootstrap code and applied the Svelte [Nested Components](https://svelte.dev/examples#nested-components) allowing me to style this more to my own needs.  \n\n For putting this site live I used the minimal Digital Ocean Droplet running Docker with a container running NGINX and a container running my Svelte code. I have connected my domain name to the IP of the container and now I can access my site through [thijsiedema.com](http://thijsiedema.com/). FInally I started looking into adding an SSL certificate so that I can get some HTTPS working."
+    }
+]
